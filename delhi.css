@@ -1,0 +1,132 @@
+.heading{
+color: azure;
+max-width: 10000px;
+width: 200px    ;
+display: flex;
+justify-content: space-between;
+background-size: cover;
+background-position: center;
+text-align: right;
+margin-right: 400px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-start;   /* Moves menu to the left */
+    align-items: center;
+    gap: 280px;
+text-align: unset;             /* Space between menu items */
+    padding-left: 100px;            /* Distance from the left edge */
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+p {
+    color: rgb(61, 48, 32);
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px;
+    line-height: 1.5;
+
+}
+.wholesale,.retail{
+    display: flex;
+         color: blanchedalmond;
+         border: 30px solid white;
+         text-align: center;
+         text-decoration: dotted;
+        padding: 20px;
+        justify-content: center;
+    align-items: center;
+        gap: 100px;
+        max-width: 250px;
+        
+        margin-left: 180px;
+        
+}
+.box1{
+    display: flex;
+}
+
+.box{
+    border: 5px solid white;
+    
+   
+}
+img {
+    width: 230px;
+    height: 150px;
+}
+h3{
+    border: 2px solid darkblue;
+    border-width: 5px;
+    margin-right: 370px;
+    margin-left: 370px;
+}
+  
+h2{
+    color: blanchedalmond;
+   
+}
+.shopnow{
+   padding-top: 10px;
+  margin-right: 3px;
+  margin-left: 3px;
+  border: 200px;
+  text-align: center;
+  font-style: italic;
+  font-size: medium;
+}
+.location{
+margin:0;
+    
+padding: 100px;
+    min-height:2vh;
+    background-attachment: fixed;
+    background-image: url(bg.jpg);
+    display : flex;
+    justify-content: space-between;
+    align-items: flex-start;
+.number{
+    margin-top: 5px;
+}
+}
+.address{
+    color: aliceblue;
+}
+.phonenumber {
+    text-align: left;
+    color: aliceblue;
+ margin-top: 8px;
+   line-height: 1.6;
+
+}
+.aboutus{
+    color: crimson;
+}
+#wholesaleProducts{
+    margin-top:300px;
+}
+
+#wholesale img{
+    width:200px;
+    height:200px;
+    margin:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+    display: block;
+}
+#retail{
+
+    margin-top: 300px;
+}
+#retail img{
+    width: 400px;
+    height: 1000px;
+    margin:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
